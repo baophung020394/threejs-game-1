@@ -2,11 +2,10 @@ import {
   AnimationAction,
   AnimationMixer,
   Group,
-  Mesh,
-  AnimationUtils,
+  Mesh
 } from "three";
-import { GLTFLoader } from "three/addons/loaders/GLTFLoader.js";
 import { DRACOLoader } from "three/addons/loaders/DRACOLoader.js";
+import { GLTFLoader } from "three/addons/loaders/GLTFLoader.js";
 
 export default class Eve extends Group {
   mixer?: AnimationMixer;

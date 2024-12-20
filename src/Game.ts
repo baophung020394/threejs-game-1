@@ -1,4 +1,4 @@
-import { BoxGeometry, Mesh, MeshStandardMaterial, PerspectiveCamera, Scene, WebGLRenderer, Vector3 } from 'three'
+import { PerspectiveCamera, Scene, WebGLRenderer } from 'three'
 
 import Environment from './Environment'
 import Player from './Player'
